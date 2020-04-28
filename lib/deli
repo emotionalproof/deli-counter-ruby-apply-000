@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require_relative "../deli_counter"
+
+
+puts "Welcome to the Deli . . . Time to Nosh!"
+line(deli)
+
+puts "Would you like to take a number?"
+puts "Please enter 'Y' or 'N'"
+response = gets.strip
+
+if response.upcase == "Y"
