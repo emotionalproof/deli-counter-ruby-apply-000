@@ -18,7 +18,7 @@ end #close method
 
 def take_a_number(deli) #method with two parameters:
     #the deli array and the name of person that will now enter the queue
-    name = "Ticket Number #{deli.length}"
+    name = "Ticket Number #{deli.length + 1}"
 
     deli.push(name)  #push function to add the "person" to the end of the given deli queue
     puts "Welcome! You are #{name}!"
