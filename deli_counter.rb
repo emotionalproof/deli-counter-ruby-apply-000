@@ -20,7 +20,7 @@ def take_a_number(deli, person) #method with two parameters:
     #the deli array and the name of person that will now enter the queue
   deli.push(person) #push function to add the "person" to the end of the given deli queue
 
-  puts "Welcome, #{person}. You are number #{deli.index(person) + 1} in line."
+  puts "Welcome, #{person}. You are number #{deli.index(person) + 1} in line." #or deli.length
   #print a string and use interpolation to insert the person and the position
   #the second interpolation uses the .index function to determine the index
     #of that person
