@@ -21,7 +21,7 @@ def take_a_number(deli) #method with two parameters:
     name = "Ticket Number #{deli.length}"
 
     deli.push(name)  #push function to add the "person" to the end of the given deli queue
-    puts "Welcome! You are name!"
+    puts "Welcome! You are #{name}!"
   #puts "Welcome, #{person}. You are number #{deli.index(person) + 1} in line." #or deli.length
 
   #print a string and use interpolation to insert the person and the position
