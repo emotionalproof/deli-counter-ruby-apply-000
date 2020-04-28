@@ -8,7 +8,7 @@ puts "Welcome to the Deli . . . Time to Nosh!"
 puts
 line(deli)
 
-until deli.empty?
+while deli.length >= 0
   puts
   puts "Would you like to take a number?"
   puts
