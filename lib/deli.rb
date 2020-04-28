@@ -9,6 +9,7 @@ puts "Welcome to the Deli . . . Time to Nosh!"
 line(deli)
 
 until deli.empty?
+  puts
   puts "Would you like to take a number?"
   puts
   puts "Please enter 'Y' or 'N'"
