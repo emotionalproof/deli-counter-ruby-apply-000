@@ -5,7 +5,7 @@ require_relative "../deli_counter"
 deli = ["Chase", "Bobby", "Jimmy", "Carley"]
 
 puts "Welcome to the Deli . . . Time to Nosh!"
-
+puts
 line(deli)
 
 until deli.empty?
