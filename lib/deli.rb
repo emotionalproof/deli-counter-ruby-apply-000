@@ -14,7 +14,7 @@ until deli.empty?
   response = gets.strip
 
   if response.upcase == "Y"
-    "Great! Please enter your name and then go to the back of the line"
+    puts "Great! Please enter your name and then go to the back of the line"
     name = gets.strip.capitalize
     take_a_number(deli, name)
   else
