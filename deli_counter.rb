@@ -1,4 +1,6 @@
 katz_deli = []
+line_count = 0
+
 
 def line(deli) #method "line" with parameter of "deli" which will be an array of people in line
   if deli.empty? #setup a conditional based on if the line is empty
@@ -18,10 +20,13 @@ end #close method
 
 def take_a_number(deli) #method with two parameters:
     #the deli array and the name of person that will now enter the queue
-    name = "Ticket Number #{deli.length + 1}"
+    name = "Ticket Number #{line_count}"
 
     deli.push(name)  #push function to add the "person" to the end of the given deli queue
+    line_count += 1
     puts "Welcome! You are #{name}!"
+
+    
   #puts "Welcome, #{person}. You are number #{deli.index(person) + 1} in line." #or deli.length
 
   #print a string and use interpolation to insert the person and the position
